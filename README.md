@@ -60,6 +60,10 @@ Once the backend is running, the frontend can be connected without any code chan
 
 ---
 
+## Snaphot of frontend
+<img width="2556" height="1158" alt="image" src="https://github.com/user-attachments/assets/d8071b96-af3d-4136-8fab-fd8fbc8ff700" />
+
+
 ## Author
 **Shree Harini**  
 Module 1 – Frontend Developer
