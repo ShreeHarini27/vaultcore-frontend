@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# VaultCore – Module 1 (Frontend)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+This repository contains the **Frontend implementation of Module 1 (Login & Authentication UI)** for the VaultCore project, a next-generation fintech security platform.
 
-## Available Scripts
+The frontend is built using **React** and focuses on providing a secure, clean, and modern login experience similar to real-world fintech applications.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## What I Worked On
+I was responsible for the **Frontend part of Module 1**.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Specifically, I implemented:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- A responsive **Login UI** using React
+- Controlled form inputs for **username and password**
+- Client-side validation and error handling
+- Integration with backend login API using **Axios**
+- Handling of **JWT token** received from backend
+- Secure storage of the token in `localStorage`
+- Loading and error state management for better user experience
+- Modern fintech-style UI using **Tailwind CSS**
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tech Stack Used
+- **React (Create React App)**
+- **Axios** for API communication
+- **Tailwind CSS** for styling
+- JavaScript (ES6+)
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<img width="744" height="248" alt="image" src="https://github.com/user-attachments/assets/61c23dee-061b-4e96-bca6-dc74f9ac3c0d" />
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## How It Works
+1. User enters username and password
+2. On submit, frontend sends a POST request to the backend `/login` endpoint
+3. Backend returns a JWT token on successful authentication
+4. Frontend stores the token securely in `localStorage`
+5. Error messages are shown if authentication fails
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Backend Dependency
+This frontend is designed to work with a **Spring Boot backend** that provides:
+- `/login` API endpoint
+- JWT token generation
+- Authentication validation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Once the backend is running, the frontend can be connected without any code changes.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Status
+✅ Module 1 Frontend completed  
+🔗 Ready to integrate with backend authentication service
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Author
+**Shree Harini**  
+Module 1 – Frontend Developer
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Project Structure
